@@ -1,0 +1,58 @@
+\documentclass[10pt]{moderncv}
+\moderncvstyle{classic}
+\usepackage[utf8]{inputenc}
+
+\firstname{Carlos}
+
+\familyname{Duelo Serrano}
+
+\phone{+57 312 3529307} 
+
+\email{c@cduelo.com}
+
+\photo[70pt]{Foto_2.png}
+
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX% 
+  \kern-.0333emt}
+
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links 
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+\begin{document}
+\maketitle
+%\makequote
+
+\section{Education}
+
+\cventry{2004--2011}{MsC in Computer Engineering}{Facultad de Infórmatica Universidad Politécnica de Madrid}{}{}{}
+
+\cventry{2009--2010}{Computer Science}{Queen's University Belfast}{}{}{(Erasmus Scholarship 2009/10)}
+
+\section{Relevant Experience}
+
+\cventry{Sep 2010\\Apr 2012}{Researcher}{DATSI}{Facultad de Informática Universidad Politécnica de Madrid}{}{Develop, profiling and debug a climate model software. The final goal was, run the application in massive parallel machines. I have worked with openMP, MPI and NVIDIA CUDA technologies. My principal role was achieve a high speedup on NVIDIA video cards, CUDA, fix some bugs, measure performance and also administrate Linux machines and a cluster.}
+
+\cventry{May 2012\\Dec 2013}{Software Developer}{CeSViMa}{Facultad de Informática Universidad Politécnica de Madrid}{}{Working in the Fluid Dynamics Group UPM, School of Aeronautics, where I am developing massive isosuface renderer to visualize mechanical fluid data related with turbulences. The tools have been written in C++ with the technologies CUDA and OpenGL, it is open source and you could find on \url{https://github.com/carlosduelo}.}
+
+\cventry{Jan 2014\\Jun 2015}{PhD Student}{CeSViMa}{Facultad de Informática Universidad Politécnica de Madrid}{}{Human Brain Project.}
+
+\cventry{Jun 2015\\Present}{Software Developer}{NFQRisk Solutions}{}{}{Application Development with different technologies Java, Python, Apache Spark, etc}
+
+
+\section{Idioms}
+
+\cvlanguage{Spanish}{Native}{}
+\cvlanguage{English}{Professional working proficiency}{}
+
+\section{Skills}
+
+\cvcomputer{Operative Systems}{Linux, Unix, Windows}{Programing Experience}{C, C++, Java, Python, C\# .NET, Haskell}
+\cvcomputer{Profilling tools}{Valgrind, Vtune}{Parallel technologies}{openMP, MPI, NVIDIA CUDA, Apache Spark}
+\cvcomputer{Graphic Libraries}{OpenGL}{Tools}{CMake, LaTeX Maven}
+\cvcomputer{Version Control Systems}{Mercurial, Git}{Data Bases}{MySQL}
+
+\end{document}
